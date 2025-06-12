@@ -1,10 +1,7 @@
 🛠️ Building the Chatroom – Makefile Tutorial
 This project uses a Makefile to automate the compilation of the client and server programs.
 
-📄 Makefile Contents
-makefile
-Copy
-Edit
+
 # Makefile for Chatroom in C
 
 CC = gcc
