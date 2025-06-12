@@ -41,15 +41,3 @@ make server
 make client
 To clean/remove all built files:
 
-bash
-Copy
-Edit
-make clean
-📦 What Each Line Does
-Line	Explanation
-CC = gcc	Sets the compiler to GCC
-CFLAGS = -Wall -pthread	Enables warnings and links the pthread library
-all: $(TARGETS)	Default rule: builds both server and client
-server: server.c	Defines how to build the server executable
-client: client.c	Defines how to build the client executable
-clean:	Rule to delete all compiled files
